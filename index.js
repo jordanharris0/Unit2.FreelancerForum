@@ -81,6 +81,8 @@ const occupation = [
   "driver",
 ];
 const price = [50, 150, 5, 40, 70, 35, 12, 14, 24, 1200];
+
+//rendered arrays
 const renderNames = [
   "Dr.Slice",
   "Dr.Pressure",
@@ -103,6 +105,8 @@ const renderOcc = [
   "driver",
 ];
 const renderPrice = [50, 150, 5, 40, 70, 35, 12, 14, 24, 1200];
+
+//max people variable
 const maxPeople = 10;
 
 //set interval
@@ -111,7 +115,9 @@ const randomIntervalId = setInterval(random, 1000);
 //render
 nameData();
 
-// //creating functions
+// <---------- functions ---------->
+
+// table loop
 function nameData() {
   const nameElements = renderNames.map((name, i) => {
     const row = document.createElement("tr");
@@ -130,6 +136,7 @@ function nameData() {
   average();
 }
 
+//random name, occupation, price function
 function random() {
   const randomName = names[Math.floor(Math.random() * names.length)];
   const randomOcc = occupation[Math.floor(Math.random() * occupation.length)];
@@ -148,6 +155,7 @@ function random() {
   nameData();
 }
 
+//average price function
 function average() {
   const averagePrices = document.querySelector("p");
   const averageTotal = renderPrice.length
