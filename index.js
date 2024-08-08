@@ -140,9 +140,9 @@ function random() {
   renderPrice.push([randomPrice]);
 
   if (renderNames.length >= maxPeople) {
-    renderNames.splice(0);
-    renderOcc.splice(0);
-    renderPrice.splice(0);
+    renderNames.splice(2);
+    renderOcc.splice(2);
+    renderPrice.splice(2);
   }
 
   nameData();
