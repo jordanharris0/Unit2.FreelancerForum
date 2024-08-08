@@ -69,15 +69,12 @@ const names = [
   "Prof.Goose",
 ];
 const occupation = [
-  "gardener",
-  "programmer",
-  "teacher",
-  "teacher",
-  "programmer",
-  "teacher",
-  "gamer",
-  "diver",
-  "driver",
+  "Gardener",
+  "Programmer",
+  "Teacher",
+  "Gamer",
+  "Diver",
+  "Driver",
 ];
 const price = [50, 150, 5, 40, 70, 35, 12, 14, 24, 1200];
 
@@ -93,15 +90,12 @@ const renderNames = [
   "Prof.Goose",
 ];
 const renderOcc = [
-  "gardener",
-  "programmer",
-  "teacher",
-  "teacher",
-  "programmer",
-  "teacher",
-  "gamer",
-  "diver",
-  "driver",
+  "Gardener",
+  "Programmer",
+  "Teacher",
+  "Gamer",
+  "Diver",
+  "Driver",
 ];
 const renderPrice = [50, 150, 5, 40, 70, 35, 12, 14, 24, 1200];
 
