@@ -15,7 +15,6 @@ div.append(title);
 
 //adding average price text
 const averageText = document.createElement("p");
-averageText.textContent = `The average starting price is `;
 averageText.style.textAlign = "center";
 averageText.style.fontSize = "large";
 div.append(averageText);
